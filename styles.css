@@ -2,6 +2,7 @@
   width: 70%;
   margin: auto;
   text-align: center;
+  
 }
 
 .dice {
@@ -40,12 +41,14 @@ footer {
 
 }
 
-button{
-  margin-top: 2rem;
+.btn{
+  margin-top: 1rem;
   padding: 2rem;
   background-color: #393E46;
   color: #4ECCA3;
   font-family: 'Lobster', cursive;
   font-size: 3rem;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
